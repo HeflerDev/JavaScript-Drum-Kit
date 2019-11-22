@@ -25,7 +25,7 @@ body {
     margin: 5px;
     text-align: center;
     background-color: pink;
-    transition: all 20s;
+    transition: all 0.07s;
     width: 75px;
     height: 75px;
     border: solid maroon 2px;
@@ -33,12 +33,9 @@ body {
 }
 .playing{
     border-color: yellow ;
-    transform: scale(20.0);
-
+    transform: scale(1.2);
+    box-shadow: 0 0 1rem #ffc600;
 }
-
-
-
 kbd {
     font-size: 36px;
     margin: 20px;
