@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+
+.flex-container{
+    padding: 20px;
+    display: flex;
+    width: 450px;
+    height: auto;
+    margin: auto;
+    background: lightgray;
+    border: solid black 1px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.key{
+    margin: 5px;
+    text-align: center;
+    background-color: pink;
+    width: 75px;
+    height: 75px;
+    border: solid maroon 2px;
+}
+kbd {
+    font-size: 36px;
+    margin: 20px;
+    font-family: fantasy;
+}
+.sound{
+    font-size: 12px;
+    padding: 10px;
+}
