@@ -2,15 +2,20 @@ body {
     display: flex;
     align-items: center;
     height: 500px;
+    background-image: url("drum-bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
 }
 
 .flex-container{
+    border-radius: 10px;
     padding: 20px;
     display: flex;
     width: 450px;
     height: auto;
     margin: auto;
-    background: lightgray;
+    background: rgba(0,0,0,0.5);
     border: solid black 1px;
     justify-content: center;
     align-items: center;
@@ -20,10 +25,20 @@ body {
     margin: 5px;
     text-align: center;
     background-color: pink;
+    transition: all 20s;
     width: 75px;
     height: 75px;
     border: solid maroon 2px;
+    background: rgba(50,0,0,0.6);
 }
+.playing{
+    border-color: yellow ;
+    transform: scale(20.0);
+
+}
+
+
+
 kbd {
     font-size: 36px;
     margin: 20px;
